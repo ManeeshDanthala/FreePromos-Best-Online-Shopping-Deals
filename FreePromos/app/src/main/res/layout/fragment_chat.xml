@@ -1,0 +1,94 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:orientation="vertical"
+    tools:context="com.Deals.Offers.FreePromos.ChatFragment">
+
+    <ListView
+        android:id="@+id/chatlist"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="0dp"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"></ListView>
+
+    <LinearLayout
+        android:id="@+id/verification_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:minHeight="40dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/verify_bt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Click here to Send a verification email to participate in chat"
+            android:textColor="#880E4F"
+            android:background="@drawable/circular_corners"
+            android:textAllCaps="false"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/texting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:minHeight="40dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/camerabutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="1dp"
+            android:background="@drawable/circular_edges"
+            android:paddingBottom="7dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="7dp"
+            android:src="@drawable/ic_menu_camera" />
+
+        <EditText
+            android:id="@+id/sendingtext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="2dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_corners"
+            android:gravity="center_vertical"
+            android:hint="Say something"
+            android:inputType="textCapSentences|textMultiLine"
+            android:maxLines="10"
+            android:minHeight="40dp"
+            android:minLines="1"
+            android:paddingLeft="15dp" />
+
+        <ImageButton
+            android:id="@+id/sendbutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/circular_edges"
+            android:paddingLeft="8dp"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:src="@drawable/ic_menu_send"
+            android:text="Send MSG"
+            android:textColor="@color/background_material_light" />
+    </LinearLayout>
+
+</LinearLayout>

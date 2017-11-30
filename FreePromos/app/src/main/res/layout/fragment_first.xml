@@ -1,0 +1,284 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#E8EAF6"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+            <EditText
+                android:id="@+id/messageEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:padding="10dp"
+                android:background="@drawable/rounded_corners"
+                android:layout_toLeftOf="@+id/chatSendButton"
+                android:autoText="true"
+                android:hint="type message" />
+            <ImageButton
+                android:id="@+id/chatSendButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_menu_send"
+                android:text="Send MSG"
+                android:textColor="@color/background_material_light"/>
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="410dp">
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/bubble_layout_parent"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:id="@+id/bubble_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bubble1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/message_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxEms="12"
+                        android:layout_gravity="center"
+                        android:text="Hi! new message"
+                        android:textColor="@android:color/primary_text_light" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="09:00 am"
+                        android:textSize="10dp"
+                        android:layout_gravity="right"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/bubble9_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bubble1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/message9_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxEms="12"
+                        android:layout_gravity="center"
+                        android:text="Hi! new message"
+                        android:textColor="@android:color/primary_text_light" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="09:00 am"
+                        android:textSize="10dp"
+                        android:layout_gravity="right"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/bubble10_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bubble1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/message10_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxEms="12"
+                        android:layout_gravity="center"
+                        android:text="Hi! new message"
+                        android:textColor="@android:color/primary_text_light" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="09:00 am"
+                        android:textSize="10dp"
+                        android:layout_gravity="right"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/bubble1_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bubble2"
+                    android:layout_gravity="right"
+                    android:backgroundTint="#66BB6A">
+
+                    <TextView
+                        android:id="@+id/message1_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxEms="12"
+                        android:layout_gravity="center"
+                        android:text="Hello I am new to this grp!!\n hii everyone"
+                        android:textColor="@android:color/primary_text_light" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="12dp"
+                        android:text="09:00 am"
+                        android:textSize="10dp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/bubble2_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bubble1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/message2_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxEms="12"
+                        android:layout_gravity="center"
+                        android:text="Hi! even me"
+                        android:textColor="@android:color/primary_text_light" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="09:00 am"
+                        android:textSize="10dp"
+                        android:layout_gravity="right"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/bubble3_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bubble1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/message3_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxEms="12"
+                        android:layout_gravity="center"
+                        android:text="Hi! new message"
+                        android:textColor="@android:color/primary_text_light" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="09:00 am"
+                        android:textSize="10dp"
+                        android:layout_gravity="right"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/bubble4_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bubble2"
+                    android:layout_gravity="right"
+                    android:backgroundTint="#66BB6A">
+
+                    <TextView
+                        android:id="@+id/message4_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxEms="12"
+                        android:layout_gravity="center"
+                        android:text="Hi! Second message"
+                        android:textColor="@android:color/primary_text_light" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="12dp"
+                        android:text="09:00 am"
+                        android:textSize="10dp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/bubble5_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bubble1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/message5_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxEms="12"
+                        android:layout_gravity="center"
+                        android:text="Hi! new message"
+                        android:textColor="@android:color/primary_text_light" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="09:00 am"
+                        android:textSize="10dp"
+                        android:layout_gravity="right"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/bubble6_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bubble1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/message6_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxEms="12"
+                        android:layout_gravity="center"
+                        android:text="Hi! new message"
+                        android:textColor="@android:color/primary_text_light" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="09:00 am"
+                        android:textSize="10dp"
+                        android:layout_gravity="right"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/bubble7_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bubble1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/message7_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:maxEms="12"
+                        android:layout_gravity="center"
+                        android:text="Hi! new message"
+                        android:textColor="@android:color/primary_text_light" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="09:00 am"
+                        android:textSize="10dp"
+                        android:layout_gravity="right"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+            </ScrollView>
+
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</FrameLayout>

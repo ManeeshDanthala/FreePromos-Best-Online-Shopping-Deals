@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context="com.Deals.Offers.FreePromos.WriteActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/title_notify"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Title"
+                android:maxLines="2"
+                android:minLines="1" />
+
+            <EditText
+                android:id="@+id/desc_notify"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Desctiption(Notification)"
+                android:maxLines="5"
+                android:minLines="1" />
+
+            <Button
+                android:id="@+id/notify_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="notify" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.Deals.Offers.FreePromos.EditProfile">
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgView33"
+            android:layout_width="120dp"
+            android:layout_marginTop="15dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:src="@drawable/default_profile_picture" />
+
+        <EditText
+            android:id="@+id/username33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/ic_person_black_24dp"
+            android:drawablePadding="15dp"
+            android:hint="usename"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/no33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@mipmap/ic_phone_black_24dp"
+            android:drawablePadding="15dp"
+            android:hint="phone no"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/b33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corners"
+            android:text="Apply changes"
+            android:textAllCaps="false"
+            android:textColor="#880E4F" />
+    </LinearLayout>
+</RelativeLayout>
+

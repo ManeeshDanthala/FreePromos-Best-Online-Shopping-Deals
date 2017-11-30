@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">FreePromos</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">Start Now</string>
+    <string name="slide_1_title">Just Here!</string>
+    <string name="slide_1_desc">The easiest way to find best deals from best brands</string>
+    <string name="slide_2_title">Group chat</string>
+    <string name="slide_2_desc">Interact with admin directly!!!</string>
+    <string name="slide_3_title">Amazing Offers</string>
+    <string name="slide_3_desc">Best place to find lightening deals with lot of savings</string>
+
+
+
+    <string name="admin">Admin</string>
+
+
+    <string-array name="categories">
+        <item>categories</item>
+        <item>Electronics</item>
+        <item>Fashion</item>
+        <item>Appliances</item>
+        <item>Recharge</item>
+        <item>Grocery|Pantry</item>
+        <item>Travel</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="Provider">
+        <item>Provider</item>
+        <item>Amazon</item>
+        <item>Flipkart</item>
+        <item>Myntra</item>
+        <item>Paytm</item>
+        <item>Mobiwik</item>
+        <item>Phonepay</item>
+        <item>Freecharge</item>
+        <item>Uber</item>
+        <item>Ola</item>
+
+    </string-array>
+    <string-array name="Deal_Type">
+        <item>Deal_Type</item>
+        <item>Loot deal</item>
+        <item>Steal deal</item>
+        <item>Best deal</item>
+        <item>Price drop</item>
+        <item>Others</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

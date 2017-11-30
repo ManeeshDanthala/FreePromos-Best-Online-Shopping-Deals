@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.Deals.Offers.FreePromos.RegisterActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/fidaeditedone" />
+
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:gravity="center"
+        android:paddingRight="30dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-20dp"
+            android:background="@drawable/circular_edges"
+            android:src="@drawable/my_logo_sq"
+            />
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:drawableLeft="@mipmap/ic_person_black_24dp"
+            android:drawablePadding="15dp"
+            android:hint="username"
+            android:textColor="#7B1FA2"
+            android:textColorHint="#7B1FA2" />
+
+        <EditText
+            android:id="@+id/email2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:drawableLeft="@mipmap/ic_email_black_24dp"
+            android:drawablePadding="15dp"
+            android:hint="email"
+            android:inputType="textEmailAddress"
+            android:textColor="#7B1FA2"
+            android:textColorHint="#7B1FA2" />
+
+        <EditText
+            android:id="@+id/password2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:drawableLeft="@mipmap/ic_lock_outline_black_24dp"
+            android:drawablePadding="15dp"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:textColor="#7B1FA2"
+            android:textColorHint="#7B1FA2" />
+
+        <EditText
+            android:id="@+id/no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:drawableLeft="@mipmap/ic_phone_black_24dp"
+            android:drawablePadding="15dp"
+            android:hint="phone no (Optional)"
+            android:inputType="number"
+            android:maxLength="10"
+            android:textColor="#7B1FA2"
+            android:textColorHint="#7B1FA2" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corners"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:textColor="#880E4F" />
+
+    </LinearLayout>
+</RelativeLayout>
+
